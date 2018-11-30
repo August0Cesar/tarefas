@@ -36,7 +36,8 @@ import { environment } from '../environments/environment';
     MatInputModule,
     MatIconModule,
     FlexLayoutModule,
-    ServiceWorkerModule.register('./ngsw-worker.js', { enabled: environment.production }) //base-href'/ngsw-worker.js''./ngsw-worker.js'
+    //ServiceWorkerModule.register('/ngsw-worker.js', { enabled: environment.production }) //base-href'/ngsw-worker.js''./ngsw-worker.js'
+    environment.production ? ServiceWorkerModule.register('./ngsw-worker.js') : []
   ],
   providers: [],
   bootstrap: [AppComponent]
