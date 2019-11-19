@@ -1,0 +1,9 @@
+[{
+  "relation": ["delegate_permission/common.handle_all_urls"],
+  "target": {
+    "namespace": "android_app",
+    "package_name": "com.augusto.tarefastwa",
+    "sha256_cert_fingerprints":
+    ["BF:7A:4B:2B:C2:FB:6B:7A:28:A6:0E:6C:E7:F6:3F:29:3B:CE:83:37:6A:60:CE:05:77:6A:4C:9A:85:34:78:FF"]
+  }
+}]
